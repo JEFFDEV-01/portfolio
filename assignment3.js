@@ -99,11 +99,11 @@ book2.borrowBook(); // Borrow the book
 book2.returnBook(); // Return the book
 
 // Remove a book
-myLibrary.removeBook('1234567890'); // Remove book by ISBN
+myLibrary.removeBook('22210'); // Remove book by ISBN
 
 // Creating a DigitalLibrary instance
 const myDigitalLibrary = new DigitalLibrary();
 myDigitalLibrary.addBook(book2);
 
 // Download a book
-myDigitalLibrary.downloadBook('0987654321'); // Download available book
+myDigitalLibrary.downloadBook('22211'); // Download available book
